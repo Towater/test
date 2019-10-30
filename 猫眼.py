@@ -44,7 +44,7 @@ def save_file(item):
 
 
 def database(items):
-    conn = pymysql.connect(user='root',password='980404',database='top',host='127.0.0.1')
+    conn = pymysql.connect(user='root',password='****',database='top',host='127.0.0.1')
     try:
         with conn.cursor() as csr:
             for item in items:
